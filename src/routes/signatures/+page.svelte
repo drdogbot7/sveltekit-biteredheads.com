@@ -66,7 +66,7 @@
 					>
 						<img
 							src="https://biteredheads.com/email_logo@2x.png"
-							alt="Lytos Tech logo"
+							alt="Bite Red Heads logo"
 							width="264"
 							height="138"
 						/>
