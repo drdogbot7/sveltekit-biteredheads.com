@@ -33,6 +33,7 @@
 	"dependencies": {
 		"@fontsource/podkova": "^5.1.1",
 		"@fontsource/zilla-slab": "^5.1.1",
-		"aos": "^2.3.4"
+		"aos": "^2.3.4",
+		"clipboard": "^2.0.11"
 	}
 }
