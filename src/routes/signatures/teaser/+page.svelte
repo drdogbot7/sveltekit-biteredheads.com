@@ -9,41 +9,45 @@
 		let clipboard = new Clipboard('#js-clipboard-btn');
 	});
 
-	const fontStack = `"Roboto Slab", 'Nimbus Mono PS', 'Courier New', monospace;`;
+	const fontStack = `'Roboto Slab', 'Nimbus Mono PS', 'Courier New', monospace`;
 	const nameStyle = `
 		color:black;
 		font-weight: bold;
 		font-size: 24px;
-		font-family: ${fontStack},
+		font-family: ${fontStack};
 		border-style: none;
 	`;
 	const titleStyle = `
 		color:black;
 		font-weight: normal;
 		font-size: 16px;
-		font-family: ${fontStack},
+		font-family: ${fontStack};
 		border-style: none;
 	`;
 	const phoneStyle = `
 		color:black;
 		font-weight: bold;
 		font-size: 24px;
-		font-family: ${fontStack},
+		font-family: ${fontStack};
 		border-style: none;
-		padding-top: 1em;
 	`;
 	const urlStyle = `
 		color:#BF272D;
 		font-weight: normal;
 		font-size: 16px;
-		font-family: ${fontStack},
+		font-family: ${fontStack};
 		border-style: none;
 	`;
-	const tableStyle = `borderCollapse: collapse;`;
+	const tableStyle = `
+		borderCollapse: collapse;
+		border-style: none;
+		border-width: 0;
+		border-color:transparent;`;
 	const tdStyle = `
 		border-style: none;
 		border-width: 0;
 		line-height: 1.25;
+		border-color:transparent;
 		`;
 </script>
 
@@ -57,74 +61,55 @@
 		<div id="signature" class="border-none">
 			<table border="0" cellPadding="0" cellSpacing="0" width="100%" style={tableStyle}>
 				<tr>
-					<td border="0" cellPadding="0" cellSpacing="0" style={tdStyle}>
-						<table border="0" cellPadding="0" cellSpacing="0" width="100%" style={tableStyle}>
-							<tbody>
-								<tr>
-									<td
-										border="0"
-										cellPadding="0"
-										cellSpacing="0"
-										style="{tdStyle} padding-bottom:16px;"
-									>
-										<img
-											src="https://biteredheads.com/email_teaser@2x.png"
-											alt="Bite Red Heads logo"
-											width="260"
-											height="43"
-										/>
-									</td>
-								</tr>
-							</tbody>
-						</table>
-					</td>
-				</tr>
-			</table>
-			<table border="0" cellPadding="0" cellSpacing="0" width="100%" style={tableStyle}>
-				<tr>
-					<td
-						border="0"
-						width="264"
-						cellPadding="0"
-						cellSpacing="0"
-						style="{tdStyle} padding-bottom: 16px; border-style: none; border-width:0; border-color:transparent;"
-					>
+					<td border="0" cellPadding="0" cellSpacing="0" style="{tdStyle} padding-bottom:16px;">
 						<img
-							src="https://biteredheads.com/email_logo@2x.png"
-							alt="Lytos Tech logo"
-							width="264"
-							height="138"
+							src="https://biteredheads.com/email_teaser@2x.png"
+							alt="Coming August 2025. Mark your calendars, you impatient lot."
+							width="260"
+							height="43"
 						/>
 					</td>
-					<td border="0" cellPadding="0" cellSpacing="0" style={tdStyle + ' padding-left:16px;'}>
-						<div style={nameStyle} contenteditable="true">First Last</div>
-						<div style={titleStyle} contenteditable="true">Job Title</div>
-						<div style={phoneStyle} contenteditable="true">M: 123.456.7890</div>
-						<div style={urlStyle}>
-							<a style="color: #BF272D; text-decoration:none;" href="https://www.biteredheads.com"
-								>BiteRedHeads.com</a
-							>
-						</div>
+				</tr>
+
+				<tr>
+					<td style="{tdStyle} width:100%;">
+						<table style={tableStyle}>
+							<tr>
+								<td border="0" width="264" cellPadding="0" cellSpacing="0" style={tdStyle}>
+									<img
+										src="https://biteredheads.com/email_logo@2x.png"
+										alt="Bite Red Heads logo"
+										width="264"
+										height="138"
+									/>
+								</td>
+								<td border="0" width="16" cellPadding="0" cellSpacing="0" style={tdStyle}></td>
+								<td border="0" cellPadding="0" cellSpacing="0" style={tdStyle}>
+									<div><span style={nameStyle} contenteditable="true">First Last</span></div>
+									<div><span style={titleStyle} contenteditable="true">Job Title</span></div>
+									<br />
+									<div><span style={phoneStyle} contenteditable="true">M: 123.456.7890</span></div>
+									<div>
+										<span style={urlStyle}>
+											<a
+												style="color: #BF272D; text-decoration:none;"
+												href="https://www.biteredheads.com">BiteRedHeads.com</a
+											>
+										</span>
+									</div>
+								</td>
+							</tr>
+						</table>
 					</td>
 				</tr>
-			</table>
-			<table border="0" cellPadding="0" cellSpacing="0" width="100%" style={tableStyle}>
 				<tr>
-					<td border="0" cellPadding="0" cellSpacing="0" style={tdStyle}>
-						<table border="0" cellPadding="0" cellSpacing="0" width="100%" style={tableStyle}>
-							<tbody>
-								<tr>
-									<td border="0" cellPadding="0" cellSpacing="0" style="{tdStyle} padding-top:8px;">
-										<img
-											src="https://biteredheads.com/email_address@2x.png"
-											alt="Bite Red Heads logo"
-											width="600"
-											height="20"
-										/>
-									</td>
-								</tr>
-							</tbody>
-						</table>
+					<td border="0" cellPadding="0" cellSpacing="0" style="{tdStyle} padding-top:16px;">
+						<img
+							src="https://biteredheads.com/email_address@2x.png"
+							alt="J.P. Sullivan & Co. • Rooted In Family Since 1925 • 50 Barnum Road, Ayer, Ma 01432"
+							width="600"
+							height="20"
+						/>
 					</td>
 				</tr>
 			</table>
