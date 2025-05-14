@@ -14,24 +14,25 @@
 		</h1>
 		<div class="mt-12 space-y-6">
 			<p class="font-zilla">
-				So, ye think ye&#39;ve stumbled upon just another website? Think again. Let me tell you, the
-				tale of the RedHeads is a thing of fire and flavor, a tapestry woven with passion and a hint
-				of delightful swagger rooted deeply in the soil of this land.
+				So, you think you've stumbled upon just another website? Think again. Let me tell you, the
+				tale of the Red Heads is a thing of fire and flavor, a tapestry woven with passion and a
+				hint of delightful swagger rooted deeply in the soil of this land.
 			</p>
 			<p class="font-zilla">
-				Aye, we&#39;re harvesting something grand, something that&#39;ll make yer taste buds sing
-				and yer spirits soar. Think of it as a bounty of legends, a gathering of the finest apples
-				the Eastern Stronghold has ever seen – and a glimpse into the very soul of us RedHeads.
+				We’re harvesting something grand that'll make your taste buds sing and your spirits soar.
+				Think of it as a bounty of legends, a gathering of the finest apples the Eastern Stronghold
+				has ever seen – and a glimpse into the very soul of us Red Heads.
 			</p>
 			<p class="font-zilla">
-				Don’t be surprised if we don’t play nice, and we definitely won’t hold back. We&#39;re
-				showing you what it means to be a RedHead, and what it means to own your legacy.
+				Don’t be surprised if we don’t play nice, and we definitely won’t hold back. We're showing
+				you what it means to be a Red Head, and what it means to own your legacy.
 			</p>
 			<p class="font-zilla">
-				So, bide yer time, eager souls. The gates to our orchard are about to swing wide, revealing
-				a world of flavor and tales that&#39;ll leave ye breathless. And trust me, it&#39;ll be
-				worth the wait.
+				So, bide your time, eager souls. The gates to our orchard are about to swing wide, revealing
+				a world of flavor and tales that'll leave you breathless. And trust me, it'll be worth the
+				wait.
 			</p>
+
 			<p data-aos="zoom-in" class="font-zilla text-2xl text-center text-red-700 uppercase">
 				Now, who wants to Bite a RedHead?
 			</p>
